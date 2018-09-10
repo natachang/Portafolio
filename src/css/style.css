@@ -1,0 +1,74 @@
+
+
+
+header {
+
+    width: 100%;
+    height: 27px;
+    background: #000;
+}
+
+
+.first-container {
+
+    width: 100%;
+    height: 600px;
+    background: #fff;
+} 
+
+.options-list {
+    margin: 2% 0 0 50%;
+    list-style-type: none;
+ 
+}
+
+.options-list li {
+    color: #000;
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+    font-family: sedan;
+    font-size: 18px;
+}
+
+.options-style {
+
+    color: #000;
+    text-decoration: none;
+    font-family: sedan;
+    font-size: 18px;
+}
+
+.space-color {
+
+    background: #fff;
+    
+}
+
+.space-size {
+
+    height: 75px;
+}
+
+
+.logo-img {
+width: 65px;
+height: 45px;
+margin-top: 5.5%;
+
+}
+
+.logo-container {
+
+    margin-left: 21%;
+}
+
+.icon-color {
+
+    color: black;
+}
+
+.menu-ubication {
+
+    margin: 0 0 0 10.5%;
+}
