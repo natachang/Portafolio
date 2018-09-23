@@ -24,7 +24,6 @@ header {
 }
 
 .options-style {
-
     color: #000;
     text-decoration: none;
     font-family: sedan;
@@ -32,35 +31,27 @@ header {
 }
 
 .space-color {
-
-    background: #fff;
-    
+    background: #fff; 
 }
 
 .space-size {
     height: 75px;
 }
 
-
 .logo-img {
 width: 65px;
 height: 45px;
 margin-top: 5.5%;
-
 }
 
 .logo-container {
-
     margin-left: 21%;
 }
 
 .icon-color {
-
     color: black;
 }
 
 .menu-ubication {
-
     margin: 0 0 0 13%;
-    
 }
