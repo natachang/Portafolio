@@ -60,17 +60,18 @@ header {
 }
 
 .navmenu-size {
-  height: 105px;
-  /* position: absolute;
-  position: fixed; */
-  
+  height: 75px;
+  /* position: absolute; */
+  /* position: fixed; */
+  position: relative;
+
  
 }
 
 .logo-img {
 width: 65px;
 height: 45px;
-margin-top: 5.9%;
+margin-top: 5.5%;
 }
 
 .logo-container {
