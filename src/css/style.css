@@ -60,11 +60,9 @@ header {
 }
 
 .navmenu-size {
-  height: 75px;
+  height: 103px;
   /* position: absolute; */
-  /* position: fixed; */
-  position: relative;
-
+  position: fixed; 
  
 }
 
@@ -96,7 +94,6 @@ margin-top: 5.5%;
 
 .hidden {
     display: none;
-
 }
 
 footer {
@@ -107,10 +104,13 @@ footer {
 }
 
 #menu-responsive {
-
     width: 45%;
-  
 }
+
+.sections-position {
+  margin-top: 100px;
+}
+
 
 /* .sidenav li .options-style:hover {
 
@@ -124,3 +124,43 @@ footer {
    
 } */
 
+.position {
+
+    display: inline-block;
+}
+
+.img-position {
+
+    width: 40%;
+    height: 500px;
+   
+}
+
+.about-myself {
+    background: red;
+    width: 20%;
+    height: 400px;
+    margin: 5% 0 0 10%;
+}
+
+.move {
+
+    margin: 5% 0 0 10%;
+}
+
+.move-text {
+    margin: 0 0 0 60%;
+}
+
+.move-text a {
+    font-size: 70px;
+    color: #000;
+    font-family: frank;
+}
+
+@font-face {
+    font-family: frank;
+    src: url(../fonts/FrankRuhlLibre-Regular.ttf);
+    font-family: didac;
+    src: url(../fonts/DidactGothic-Regular.ttf);
+}
