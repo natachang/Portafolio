@@ -132,7 +132,6 @@ margin-top: 5.5%;
 .title-name{
     text-align: center;
     font-family: frank;
-    
 }
 
 .specialty-name {
@@ -143,7 +142,6 @@ margin-top: 5.5%;
 .about-me-text {
     text-align: justify;
     font-size: 20px;
-
 }
 
 .container-position-2 {
@@ -156,7 +154,6 @@ margin-top: 5.5%;
 }
 
 .container-position-3-1 {
-
     border-bottom: 1px solid #CCD1D1;
     padding-bottom: 6%;
 }
@@ -164,45 +161,36 @@ margin-top: 5.5%;
 .container-position-projects {
     border-bottom: 1px solid #CCD1D1;
     padding-bottom: 8.5%;
-   }
+}
 
-   .dashboard-box-style {
-       
+.dashboard-box-style {
     border-top: 1px solid #CCD1D1;
+}
 
-   }
-
-   .box-space {
-
+.box-space {
     padding-top: 6.5%;
-   }
+}
 
-   .separator-3 {
-
+.separator-3 {
     height: 100px;
     width: 100%;
     background: url(../images/separator-1.jpg);
+}
 
-   }
-
-
-   .container-position-4 {
+.container-position-4 {
     margin-top: 13%;
+}
 
-   }
+.project-title {
+    text-align: center;
+}
 
-   .project-title {
-text-align: center;
-   }
+.btn-position-1 {
+    margin: 14% 0 0 35%;
+}
 
-   .btn-position-1 {
-
-   margin: 14% 0 0 35%;
-   }
-
-   .btn-position-2 {
+.btn-position-2 {
     margin: 5% 0 0 30%;
-
 }
 
 .type-of-font {
@@ -230,7 +218,6 @@ text-align: center;
 }
 
 #btn-style-1 {
-
     background: pink;
     border-radius: 10px;
 }
@@ -240,7 +227,6 @@ text-align: center;
 }
 
 #btn-style-3 {
-
     background: pink;
     border-radius: 10px;
 }
@@ -250,7 +236,6 @@ text-align: center;
 }
 
 #btn-style-5 {
-
     background: pink;
     border-radius: 10px;
 }
@@ -259,9 +244,7 @@ text-align: center;
     border-radius: 10px;
 }
 
-
 .info-projects {
-
     margin: 0 0 0 10%;
 }
 
