@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="images/NC-logo-ico.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <title>Natalie Chang</title>
@@ -134,22 +135,31 @@
 
         <section id="projects-section" class="col s12 third-section hidden tabcontent">
 
+            <div class="row">
+                <section id="tiny-separator" class="col s12"></section>
+            </div>
 
-            <div  class="row container-position-3">
+            <div class="row container-position-3">
                 <section class="col s12 m2 l2"></section>
                 <section class="col s12 m2 l2">
                     <img src="images/dashboard-mock-up.png" alt="dashboard-mock-up" class="responsive-img ">
-                    <h4><a href="#data-dashboard-project">Conoce mas</a></h4>
+                    <h5 class="type-of-font">Data Dashboard</h5>
+                    <h4><a href="#data-dashboard-project" id="btn-style-a" class="btn waves-effect waves-light ">Conoce
+                            más</a></h4>
                 </section>
                 <section class="col s12 m1 l1"></section>
                 <section class="col s12 m2 l2">
                     <img src="images/social-network-mock-up.png" alt="social-network-mock-up" class="responsive-img">
-                    <h4 class="type-of-font">En proceso</h4>
-                    <h4><a href="#social-network-project" id="btn-style-a" class="btn waves-effect waves-light ">Conoce más</a></h4>
+                    <h5 class="type-of-font">Social Newtwork</h5>
+                    <h4><a href="#social-network-project" id="btn-style-b" class="btn waves-effect waves-light ">Conoce
+                            más</a></h4>
                 </section>
                 <section class="col s12 m1 l1"></section>
                 <section class="col s12 m2 l2">
                     <img src="images/marketplace-mock-up.png" alt="marketplace-mock-up" class="responsive-img">
+                    <h5 class="type-of-font">Marketplace</h5>
+                    <h4><a href="#marketplace-project" id="btn-style-c" class="btn waves-effect waves-light ">Conoce
+                            más</a></h4>
                 </section>
                 <section class="col s12 m3 l3"></section>
             </div>
@@ -158,7 +168,7 @@
                 <section class="col s12 m2 l2"></section>
                 <section class="col s12 m2 l2">
                     <img src="images/iphone-mock-up-in-process.png" alt="iphone-mock-up-in-process" class="responsive-img ">
-                    <h4><a href="#data-dashboard-project">Conoce más</a></h4>
+
                 </section>
                 <section class="col s12 m1 l1"></section>
                 <section class="col s12 m2 l2">
@@ -167,7 +177,7 @@
                 <section class="col s12 m1 l1"></section>
                 <section class="col s12 m2 l2">
                     <img src="images/iphone-mock-up-in-process.png" alt="iphone-mock-up-in-process" class="responsive-img">
-                    <h4><a href="#data-dashboard-project">Conoce mas</a></h4>
+
                 </section>
                 <section class="col s12 m3 l3"></section>
             </div>
@@ -185,18 +195,27 @@
                 <section class="col s12 m2 l2"></section>
                 <section class="col s12 m4 l4 info-projects">
                     <h1 class="project-title">Data dashboard</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, provident vitae officia,
-                        libero ex ullam, voluptas culpa reprehenderit ducimus perferendis fugit distinctio repudiandae
-                        nihil commodi animi est amet quis minima!</p>
-                    <a href="" id="btn-style-1" class="btn waves-effect waves-light">Ver Github</a>
-                    <a href="" id="btn-style-2" class="btn waves-effect waves-light">Ver DEMO</a>
+                    <p>Se identificó que las Training Manager (TM) de Laboratoria como principales usuarios, buscaban
+                        identificar cómo va cada estudiante en su proceso de aprendizaje. Para esto era necesario que
+                        puedan visualizar estadísticamente el grado de completitud del Learning Management System (LMS)
+                        de cada alumna y en base a eso tener un mejor entendimiento del progreso de cada estudiante. El
+                        problema radicaba en que no contaban con una plataforma que les permitiese llevar este control
+                        de forma dinámica, sino contrario a esto manejaban todo mediante archivos Excel que
+                        consideraban tediosos y que ocupaban mucho tiempo. Con la creación de un dashboard, las Training Manager (TM)
+                        tendrán la información mejor organizada, mediante una interfaz que les permitirá tener una
+                        visualización clara, ordenada y específica de las estadísticas que necesitan de cada alumna. </p>
+                    <a href="https://github.com/natachang/lim-2018-05-bc-core-pm-datadashboard" target="_blank" id="btn-style-1"
+                        class="btn waves-effect waves-light">Ver Github</a>
+                    <a href="https://natachang.github.io/lim-2018-05-bc-core-pm-datadashboard/src/" target="_blank" id="btn-style-2"
+                        class="btn waves-effect waves-light">Ver DEMO</a>
                 </section>
                 <section class="col s12 m1 l1">
-                        <a href="#projects-section" class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons" title="Ir a los proyectos">arrow_upward</i></a>
+                    <a href="#tiny-separator" class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons"
+                            title="Ir a los proyectos">arrow_upward</i></a>
                 </section>
             </div>
 
-         
+
 
             <div id="social-network-project" class="row container-position-projects box-space">
                 <section class="col s12 m2 l2"></section>
@@ -205,8 +224,10 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, provident vitae officia,
                         libero ex ullam, voluptas culpa reprehenderit ducimus perferendis fugit distinctio repudiandae
                         nihil commodi animi est amet quis minima!</p>
-                    <a href="" id="btn-style-3" class="btn waves-effect waves-light">Ver Github</a>
-                    <a href="" id="btn-style-4" class="btn waves-effect waves-light">Ver DEMO</a>
+                    <a href="https://github.com/natachang/lim-2018-05-bc-core-pm-socialnetwork" target="_blank" id="btn-style-3"
+                        class="btn waves-effect waves-light">Ver Github</a>
+                    <a href="https://natachang.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/index.html" target="_blank"
+                        id="btn-style-4" class="btn waves-effect waves-light">Ver DEMO</a>
                 </section>
                 <section class="col s12 m2 l2"></section>
                 <section class="col s12 m3 l3">
@@ -215,7 +236,7 @@
                 <section class="col s12 m1 l1"></section>
             </div>
 
-            
+
 
 
             <div id="marketplace-project" class="row container-position-projects box-space">
@@ -227,11 +248,13 @@
                 <section class="col s12 m2 l2 info-projects">
                     <h1 class="project-title">Marketplace</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, provident vitae officia,
-                            libero ex ullam, voluptas culpa reprehenderit ducimus perferendis fugit distinctio repudiandae
-                            nihil commodi animi est amet quis minima!</p>
-                            <div class="btn-position">
-                        <a href="" id="btn-style-5" class="btn waves-effect waves-light">Ver Github</a>
-                        <a href="" id="btn-style-6" class="btn waves-effect waves-light">Ver DEMO</a>
+                        libero ex ullam, voluptas culpa reprehenderit ducimus perferendis fugit distinctio repudiandae
+                        nihil commodi animi est amet quis minima!</p>
+                    <div class="btn-position">
+                        <a href="https://github.com/natachang/lim-2018-01-ux-marketplace" target="_blank" id="btn-style-5"
+                            class="btn waves-effect waves-light">Ver Github</a>
+                        <a href="https://www.figma.com/proto/R8VmpFizHxOHiWYx1fodrFMD/Versi%C3%B3n-Mobile?node-id=0%3A1&scaling=scale-down"
+                            target="_blank" id="btn-style-6" class="btn waves-effect waves-light">Ver DEMO</a>
                     </div>
                 </section>
                 <section class="col s12 m1 l1"></section>
@@ -251,9 +274,9 @@
                     <h5><strong>E-mail:</strong> nataliechangch99@gmail.com</h5>
                 </section>
                 <section class="col s12 m4 l4">
-                    <a class="btn btn-position-1" href="https://drive.google.com/file/d/0BxdVLugDff2-MEVpQTR2ak9rM3VXak5HVEN2clo5R3dna19F/view?usp=sharing">Ver
+                    <a class="btn btn-position-1" href="" target="_blank">Ver
                         mi CV</a> <br>
-                    <a class="btn btn-position-2" href="images/marketplace-mock-up.png" download="CV-Natalie-Chang">Descargar
+                    <a class="btn btn-position-2" href="" download="CV-Natalie-Chang">Descargar
                         mi CV</a>
                 </section>
 

@@ -151,7 +151,7 @@ margin-top: 5.5%;
 }
 
 .container-position-3 {
- margin-top: 6.8%;
+ margin-top: 6%;
  padding-bottom: 3%;
 }
 
@@ -205,10 +205,28 @@ text-align: center;
 
 }
 
+.type-of-font {
+    font-family: didac;
+    text-align: center;
+    font-weight: bold;
+}
+
 #btn-style-a {
     border-radius: 15px;
     width: 80%;
-   
+    margin-left: 11%;
+}
+
+#btn-style-b {
+    border-radius: 15px;
+    width: 80%;
+    margin-left: 12%;
+}
+
+#btn-style-c {
+    border-radius: 15px;
+    width: 80%;
+    margin-left: 12%;
 }
 
 #btn-style-1 {
