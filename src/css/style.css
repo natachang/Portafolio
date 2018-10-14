@@ -150,7 +150,7 @@ margin-top: 5.5%;
 }
 
 .container-position-3 {
- margin-top: 6%;
+ margin-top: 5.5%;
  padding-bottom: 3%;
 }
 
@@ -161,7 +161,7 @@ margin-top: 5.5%;
 
 .container-position-projects {
     border-bottom: 1px solid #CCD1D1;
-    padding-bottom: 8.5%;
+    padding-bottom: 10%;
 }
 
 .dashboard-box-style {
@@ -169,7 +169,7 @@ margin-top: 5.5%;
 }
 
 .box-space {
-    padding-top: 6.5%;
+    padding-top: 13%;
 }
 
 .separator-3 {
@@ -186,12 +186,25 @@ margin-top: 5.5%;
     text-align: center;
 }
 
-.btn-position-1 {
-    margin: 14% 0 0 35%;
+.info-projects-text {
+    text-align: justify;
 }
 
-.btn-position-2 {
-    margin: 5% 0 0 30%;
+#btn-position-1 {
+    margin: 12% 0 0 35%;
+    border-radius: 30px;
+    height: 40px;
+    background: #000;
+    box-shadow: 8px 8px 8px #e4e4e4;
+
+}
+
+#btn-position-2 {
+    margin: 6% 0 0 30%; 
+    border-radius: 30px;
+    height: 40px;
+    background: #000;
+    box-shadow: 8px 8px 8px #e4e4e4;
 }
 
 .type-of-font {
@@ -200,51 +213,23 @@ margin-top: 5.5%;
     font-weight: bold;
 }
 
-#btn-style-a {
+#btn-style {
     border-radius: 15px;
     width: 80%;
     margin-left: 11%;
-    box-shadow: 2px 2px 2px #e4e4e4;
 }
 
-#btn-style-b {
-    border-radius: 15px;
-    width: 80%;
-    margin-left: 12%;
-}
-
-#btn-style-c {
-    border-radius: 15px;
-    width: 80%;
-    margin-left: 12%;
-}
-
-#btn-style-1 {
+#btn-style-and-position-1 {
     background: pink;
     border-radius: 10px;
+    margin: 7% 0 0 24%;
 }
 
-#btn-style-2 {
+#btn-style-and-position-2 {
     border-radius: 10px;
+    margin: 7% 0 0 3%;
 }
 
-#btn-style-3 {
-    background: pink;
-    border-radius: 10px;
-}
-
-#btn-style-4 {
-    border-radius: 10px;
-}
-
-#btn-style-5 {
-    background: pink;
-    border-radius: 10px;
-}
-
-#btn-style-6 {
-    border-radius: 10px;
-}
 
 .info-projects {
     margin: 0 0 0 10%;
@@ -253,6 +238,44 @@ margin-top: 5.5%;
 .blank-space {
   height: 130px;
   width: 100%;
+}
+
+#btn-up-sn {
+  margin: -35% 0 0 11%;
+}
+
+#btn-up-mkp {
+    margin: 0 5% 0 0;
+}
+
+#btn-up-fa {
+    margin: -35% 0 0 11%;
+}
+
+#btn-up-rs {
+    margin: 0 5% 0 0;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.btn-up i:hover{
+
+    animation: bounce 1s;
 }
 
     /* footer {
