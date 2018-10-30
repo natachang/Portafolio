@@ -228,6 +228,11 @@ margin-top: 5.5%;
   width: 100%;
 }
 
+.blank-space-2 {
+  height: 70px;
+  width: 100%;
+}
+
 #btn-up-sn {
   margin: -35% 0 0 11%;
 }
@@ -330,3 +335,11 @@ background: #000;
    
 } */
 
+.title-position-2 {
+    margin-top: 5%;
+}
+
+.prototyping-img {
+
+    margin-left: -5%;
+}
